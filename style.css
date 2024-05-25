@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(140, 97, 31);
+  color: rgb(197, 147, 83);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-title {
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.game-button {
+  height: 150px;
+  width: 150px;
+  border: none;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.reset-button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.result-1 {
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.result-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.button-image {
+  width: 60%;
+}

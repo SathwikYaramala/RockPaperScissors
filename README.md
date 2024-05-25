@@ -4,6 +4,10 @@
 
 A simple Rock Paper Scissors game using HTML, CSS, and JavaScript. Play against the computer with real-time score updates and interactive UI.
 
+## Demo
+![RockPaperScissors Screenshot](screenshot.png)
+
+
 ## Features
 
 - Play against the computer

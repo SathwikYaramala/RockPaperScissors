@@ -8,6 +8,10 @@ if (score === null) {
   };
 }
 
+document.querySelector(
+  ".js-score"
+).innerHTML = `Wins: ${score.wins} Losses: ${score.losses} Ties: ${score.ties}`;
+
 function pickComputerMove() {
   const randomNumber = Math.random();
   let computerMove = "";
